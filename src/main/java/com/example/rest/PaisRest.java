@@ -19,5 +19,6 @@ public class PaisRest {
 	@GetMapping
 	private ResponseEntity<List<Pais>> getAllPaises(){
 		return ResponseEntity.ok(paisService.findAll());
+		
 	}
 }
